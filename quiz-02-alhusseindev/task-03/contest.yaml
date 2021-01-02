@@ -1,0 +1,21 @@
+# see https://github.com/Lnk2past/contest
+executable: main.exe
+test-cases:
+    - name: 1st
+      timeout: 3
+      stdout: |
+        11
+      stdin: |
+        11
+    - name: 1st
+      timeout: 3
+      stdout: |
+        314
+      stdin: |
+        314
+    - name: 1st
+      timeout: 3
+      stdout: |
+        0
+      stdin: |
+        0

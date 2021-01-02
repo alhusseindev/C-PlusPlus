@@ -1,0 +1,22 @@
+# see https://github.com/Lnk2past/contest
+executable: main.exe
+test-cases:
+    - name: greater
+      stdout: |
+        Enter a number:
+        
+      stdin: |
+        3.14
+    - name: equal
+      stdout: |
+        Enter a number:
+        
+      stdin: |
+        1.0
+    - name: less
+      stdout: |
+        Enter a number:
+        0.25
+      stdin: |
+        0.5
+
